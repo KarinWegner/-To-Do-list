@@ -1,0 +1,54 @@
+
+
+html, body{
+    background-color:rgb(218, 248, 159);
+}
+
+.bg-primary{
+background-color: mediumseagreen !important;
+}
+.bg-dark{
+    background-color: darkolivegreen !important;
+}
+.instructionBox, .displayBox, .addBox{
+    border: 3px inset mediumseagreen;
+}
+
+#buttonSeparate,
+#buttonIntegrated{
+background-color: whitesmoke;
+color: black;
+
+}
+#buttonSeparate{
+    border:1px inline black;
+}
+.input-group{
+    display:flex;
+    white-space: nowrap;
+    /* width:100%; */
+    margin:0;
+}
+#enteredProduct{
+   width:auto;
+}
+ul{
+    position:relative;
+    justify-content: space-between;
+}
+.listItem{
+    list-style: square;
+    list-style-position: inside;
+    cursor: pointer;
+    border-bottom: 1px solid mediumseagreen;
+}
+#delete{
+    background-color: transparent;
+    font-weight: bold;
+    color: brown;
+    border:0px;
+    padding:0;
+}
+.displayBox{
+    min-height: 50vw;
+}
